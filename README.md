@@ -1,7 +1,7 @@
 # Text Digger
 ***Text Digger*** is an open-source, cross-platform software designed to streamline text searches. Ideal for developers, researchers, and power users, it combines powerful text search functionalities with versatile tools such as text replacement, file deletion, file opening, and path copying.
 
-# Features
+## Features
 **1\. Advanced Text Search**
 * Locate specific text strings within files of various formats.
 * Use filters like case sensitivity, regular expressions, and wildcards for precision.
@@ -28,23 +28,23 @@ Text Digger offers robust options for narrowing search results:
     *   Ignore hidden directories, symbolic links, or certain depths in the directory tree.
 
 
-# Prerequisites
+## Prerequisites
 - C++20 Compiler
 - Qt 6.8.0 or higher
 
 
-# Usage
+## Usage
 1. **Start the Application :** Launch **Text Digger** and choose the directories to scan.
 2. **Apply Filters :** Customize your search using filters for size, dates, and file types.
 3. **Run the Scan :** Start the search and review results.
 4. **Manage Results :** Open, delete, copy paths of the files directly from the results view, etc...
 
-# Operating Systems
+## Operating Systems
 - Linux **(Tested under Linux Mint 21.3)**
 - Windows **(Not Tested)**
 - macOS **(Not Tested)**
 
-# Contributing
+## Contributing
 Contributions are welcome!
 Feel free to adjust the content to match your specific needs or preferences. Happy coding!
 Please fork the repository and submit a pull request for any improvements or bug fixes.
