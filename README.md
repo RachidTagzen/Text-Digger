@@ -8,7 +8,7 @@
 * Specify patterns to exclude certain matches.
 
 **2\. File Management Utilities**
-*   **Open Files**: Launch files directly in its default system application.
+*   **Open Files**: Launch files directly in their default system applications.
 *   **Delete Files**: Remove unnecessary files with a single click. 
 *   **Copy Paths**: Quickly copy file or directory paths for further use.
 
@@ -32,6 +32,8 @@ Text Digger offers robust options for narrowing search results:
 - C++20 Compiler
 - Qt 6.8.0 or higher
 
+## Installation
+ (Will be updated later)
 
 ## Usage
 1. **Start the Application :** Launch **Text Digger** and choose the directories to scan.
@@ -40,13 +42,12 @@ Text Digger offers robust options for narrowing search results:
 4. **Manage Results :** Open, delete, copy paths of the files directly from the results view, etc...
 
 ## Operating Systems
-- Linux **(Tested under Linux Mint 21.3)**
-- Windows **(Not Tested)**
-- macOS **(Not Tested)**
+- **Linux**: Generaly tested and supported (Linux Mint 21.3).
+- **Windows/macOS**: Contributions or testing on these platforms are welcome!
 
 ## Contributing
 Contributions are welcome!
-Feel free to adjust the content to match your specific needs or preferences. Happy coding!
+Feel free to customize the application or documentation to meet your specific needs.. Happy coding!
 Please fork the repository and submit a pull request for any improvements or bug fixes.
 
 ## License
@@ -54,13 +55,13 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 
 
 ## Screenshots
-#### Main Interface
+#### Main Interface : The main dashboard allows users to set up searches, apply filters, and view search results in an organized layout.
 ![1 - Main Interface](https://github.com/user-attachments/assets/bef8d42d-e406-4680-807c-f8af25ae2015)
 
-#### Results
+#### Results : A detailed view of matched files with options to open, delete, or copy file paths.
 ![2 - Results](https://github.com/user-attachments/assets/e373e94e-5add-44cc-8bd6-2ed07d9ccc70)
 
-#### Statistics
+#### Statistics : Analyze search statistics like total files scanned, matches found, and time taken.
 ![3 - Statistics](https://github.com/user-attachments/assets/448dd5ef-0f5f-4171-8117-6bd8ed17fa64)
 
 #### About Window
