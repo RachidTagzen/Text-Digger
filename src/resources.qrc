@@ -1,0 +1,61 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>resources/icons/svg/add.svg</file>
+        <file>resources/icons/svg/delete.svg</file>
+        <file>resources/icons/svg/copy.svg</file>
+        <file>resources/icons/svg/paste.svg</file>
+        <file>resources/icons/svg/reset.svg</file>
+        <file>resources/icons/svg/search.svg</file>
+        <file>resources/icons/svg/cancel.svg</file>
+        <file>resources/icons/svg/selections_checkboxes.svg</file>
+        <file>resources/icons/svg/checked.svg</file>
+        <file>resources/icons/svg/invert.svg</file>
+        <file>resources/icons/svg/selected.svg</file>
+        <file>resources/icons/svg/unchecked.svg</file>
+        <file>resources/icons/svg/unselected.svg</file>
+        <file>resources/icons/svg/trash.svg</file>
+        <file>resources/icons/svg/replace.svg</file>
+        <file>resources/icons/svg/edit_file.svg</file>
+        <file>resources/icons/svg/open_files.svg</file>
+        <file>resources/icons/svg/all.svg</file>
+        <file>resources/icons/svg/feedback.svg</file>
+        <file>resources/icons/svg/github-mark.svg</file>
+        <file>resources/icons/svg/about.svg</file>
+        <file>resources/icons/svg/report-error.svg</file>
+        <file>resources/icons/svg/download_import_csv.svg</file>
+        <file>resources/icons/svg/settings.svg</file>
+        <file>resources/icons/svg/upload_export_csv.svg</file>
+        <file>resources/icons/svg/exit.svg</file>
+        <file>resources/icons/svg/statistics.svg</file>
+        <file>resources/icons/svg/refresh.svg</file>
+        <file>resources/icons/svg/view.svg</file>
+        <file>resources/icons/svg/view_1.svg</file>
+    </qresource>
+    <qresource prefix="/sql">
+        <file>resources/sql/settings/check_key_existence.sql</file>
+        <file>resources/sql/settings/create_table.sql</file>
+        <file>resources/sql/settings/insert_default_keys.sql</file>
+        <file>resources/sql/settings/insert_ignore_default_keys.sql</file>
+        <file>resources/sql/settings/load_all.sql</file>
+        <file>resources/sql/settings/load_individual.sql</file>
+        <file>resources/sql/settings/update_all.sql</file>
+        <file>resources/sql/settings/update_individual.sql</file>
+    </qresource>
+    <qresource prefix="/miscellaneous">
+        <file>resources/miscellaneous/parseable_mimetypes</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>resources/logo/app_logo.png</file>
+        <file>resources/logo/app_title.png</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>resources/styles/context_menus.qss</file>
+        <file>resources/styles/global.qss</file>
+    </qresource>
+    <qresource prefix="/strings">
+        <file>resources/strings/tooltip_filterwidget_filenames</file>
+        <file>resources/strings/tooltip_filterwidget_findtext</file>
+        <file>resources/strings/feedback</file>
+        <file>resources/strings/homepage</file>
+    </qresource>
+</RCC>

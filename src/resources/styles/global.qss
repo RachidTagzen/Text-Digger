@@ -1,0 +1,31 @@
+/* --------------------------------------------------------------------------------------------------------------------
+Restore the disabled effects for widgets
+-------------------------------------------------------------------------------------------------------------------- */
+#MainWindow QWidget {
+        color: #000000;
+}
+
+#MainWindow QWidget:disabled {
+        color: #a0a0a0;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+TableViews Header
+-------------------------------------------------------------------------------------------------------------------- */
+#MainWindow #tableView_Results QHeaderView,
+#MainWindow #tableView_IncludeDirectories QHeaderView,
+#MainWindow #tableView_ExcludeDirectories QHeaderView,
+#MainWindow #tableView_MimeTypes QHeaderView,
+#AboutWindow #tableView_Statistics QHeaderView,
+#StatisticsWindow #tableView_Statistics QHeaderView {
+        font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------
+Restore the disabled effects for widgets
+-------------------------------------------------------------------------------------------------------------------- */
+#ScrollableMessageBox QTextEdit {
+        border: none;
+        background-color: transparent;
+        padding: 5px;
+}

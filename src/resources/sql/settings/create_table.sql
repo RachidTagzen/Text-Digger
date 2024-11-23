@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS settings ("id" INTEGER NOT NULL UNIQUE, "key" TEXT, "value" TEXT, "defaultvalue" TEXT, PRIMARY KEY("id" AUTOINCREMENT));

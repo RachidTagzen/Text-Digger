@@ -1,0 +1,31 @@
+<html>
+	<head> </head>
+	<body>
+		<b>Case Sensitive:</b> 'Example.txt' and 'example.txt' are treated as
+		different filenames.<br />
+		<i>Example:</i> Searching for 'Report.js' will not return results for
+		'report.js'. Use this option when you need to distinguish between different
+		versions or cases of filenames, like 'Image1.txt' vs. 'image1.txt'.<br /><br />
+		<b>Case Insensitive:</b> 'Example.txt' and 'example.txt' are treated as the
+		same filename.<br />
+		<i>Example:</i> Searching for 'Report.txt' will return results containing
+		'report.txt', 'REPORT.TXT', and 'Report.TXT'. This is helpful when the exact
+		casing of filenames isn't important, such as when looking for files with
+		similar names.<br /><br />
+		<b>Regular Expression:</b> Use regular expressions to define complex search
+		patterns.<br />
+		<i>Example:</i> Searching for '^Invoice_\\d{4}\\.xml$' will match files like
+		'Invoice_2023.xml', ensuring you get exactly the format you want. Use this
+		for filtering files by specific naming conventions.<br /><br />
+		<b>Wildcard:</b> Use wildcards (e.g., * and ?) for pattern matching in your
+		file searches.<br />
+		<i>Example:</i> Searching for '*.json' will return all JSON files. Searching
+		for 'Data_??.csv' will match 'Data_01.csv' and 'Data_02.csv' but not
+		'Data_123.csv'. Use this for flexible filename searches.<br /><br />
+		<b>Fixed String:</b> Search for an exact string match without any pattern
+		interpretation.<br />
+		<i>Example:</i> Searching for 'Data_2023.csv' will return results containing
+		exactly 'Data_2023.csv', ignoring any other variations. Use this for finding
+		specific reports or documents.
+	</body>
+</html>

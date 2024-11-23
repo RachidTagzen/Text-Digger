@@ -1,0 +1,32 @@
+<html>
+	<head> </head>
+	<body>
+		<b>Case Sensitive:</b> 'Example' and 'example' are treated as different
+		strings.<br />
+		<i>Example:</i> Searching for 'Apple' will not return results containing
+		'apple' or 'APPLE'. Use this option to find case-specific terms, e.g., if
+		looking for a product name 'Orange Juice' you won't get results for 'orange
+		juice'.<br /><br />
+		<b>Case Insensitive:</b> 'Example' and 'example' are treated as the same
+		string.<br />
+		<i>Example:</i> Searching for 'Apple' will return results containing
+		'apple', 'APPLE', or 'Apple'. Use this option for broader searches where the
+		exact casing doesn’t matter, such as looking for 'contact' to get all
+		variations like 'Contact' or 'CONTACT'.<br /><br />
+		<b>Regular Expression:</b> Use regular expressions to define complex search
+		patterns.<br />
+		<i>Example:</i> Searching for '\\d{3}-\\d{2}-\\d{4}' will return any matches
+		for a pattern like '123-45-6789', useful for finding social security numbers
+		or similar formats.<br /><br />
+		<b>Wildcard:</b> Use wildcards (e.g., * and ?) for pattern matching in your
+		text searches.<br />
+		<i>Example:</i> Searching for 'App*' will return results like 'Apple',
+		'Application', and 'Appetizer'. If you want to find terms that start with
+		'App', this is the option to use.<br /><br />
+		<b>Fixed String:</b> Search for an exact string match without any pattern
+		interpretation.<br />
+		<i>Example:</i> Searching for 'Apple Juice' will return results containing
+		exactly 'Apple Juice', excluding 'apple juice' or 'Apple' and 'Juice'
+		separately. This is ideal for precise product names or phrases.
+	</body>
+</html>
