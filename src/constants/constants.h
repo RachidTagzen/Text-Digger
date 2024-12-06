@@ -11,8 +11,8 @@
 // **************************************************** Information ****************************************************
 // *********************************************************************************************************************
 static QString APP_TITLE = "Text Digger";
-static QString APP_VERSION = "1.0";
-static QString APP_RELEASE_DATE = "16-11-2024 (21:33:00)";
+static QString APP_VERSION = "1.0.0";
+static QString APP_RELEASE_DATE = "06-12-2024 (16:58:00)";
 static QString _QT_VERSION = "6.8.0";
 
 
