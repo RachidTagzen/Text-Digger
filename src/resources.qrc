@@ -30,6 +30,7 @@
         <file>resources/icons/svg/refresh.svg</file>
         <file>resources/icons/svg/view.svg</file>
         <file>resources/icons/svg/view_1.svg</file>
+        <file>resources/icons/svg/bismillah.svg</file>
     </qresource>
     <qresource prefix="/sql">
         <file>resources/sql/settings/check_key_existence.sql</file>
@@ -57,5 +58,7 @@
         <file>resources/strings/tooltip_filterwidget_findtext</file>
         <file>resources/strings/feedback</file>
         <file>resources/strings/homepage</file>
+        <file>resources/strings/tooltip_comboBox_sizeunits</file>
+        <file>resources/strings/tooltip_comboBox_sizesystems</file>
     </qresource>
 </RCC>

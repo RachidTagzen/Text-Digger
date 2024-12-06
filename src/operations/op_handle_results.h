@@ -51,9 +51,6 @@ public slots:
         QElapsedTimer elapsedTimer;
         elapsedTimer.start();
 
-        // Clear any existing data in the results model before importing new data
-        resultsModel.clearModel();
-
 
         // --------------------------
         // Open the file dialog to import the CSV file
@@ -67,6 +64,9 @@ public slots:
         // Exit early if no file was selected
         if (filePath.isEmpty())
             return;
+
+        // Clear any existing data in the results model before importing new data
+        resultsModel.clearModel();
 
 
         // --------------------------

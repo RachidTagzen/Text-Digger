@@ -16,6 +16,8 @@ inline const QString &getString(StringType type) {
     static const std::map<StringType, QString> stringPaths = {
         {TOOLTIP_FINDTEXT, ":/strings/resources/strings/tooltip_filterwidget_findtext"},
         {TOOLTIP_FILENAMES, ":/strings/resources/strings/tooltip_filterwidget_filenames"},
+        {TOOLTIP_SIZESYSTEM, ":/strings/resources/strings/tooltip_comboBox_sizesystems"},
+        {TOOLTIP_SIZEUNITS, ":/strings/resources/strings/tooltip_comboBox_sizeunits"},
         {HOMEPAGE, ":/strings/resources/strings/homepage"},
         {FEEDBACK, ":/strings/resources/strings/feedback"},
         {MIMETYPES, ":/miscellaneous/resources/miscellaneous/parseable_mimetypes"}

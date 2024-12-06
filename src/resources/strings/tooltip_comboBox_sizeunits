@@ -1,0 +1,98 @@
+<html>
+	<head></head>
+	<body>
+		<p>Select the unit of file size:</p>
+		<p></p>
+		<table
+			border="1"
+			style="
+				margin-top: 0px;
+				margin-bottom: 0px;
+				margin-left: 0px;
+				margin-right: 0px;
+			"
+			cellspacing="2"
+			cellpadding="0"
+		>
+			<tr>
+				<td>
+					<p align="center">
+						<span style="font-weight: 700; color: #1a5fb4">SI Unit</span>
+					</p>
+				</td>
+				<td>
+					<p align="center">
+						<span style="font-weight: 700; color: #1a5fb4">Value</span>
+					</p>
+				</td>
+				<td />
+				<td>
+					<p align="center">
+						<span style="font-weight: 700; color: #1a5fb4">IEC Unit</span>
+					</p>
+				</td>
+				<td>
+					<p align="center">
+						<span style="font-weight: 700; color: #1a5fb4">Value<br /></span>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td><p align="center">KB</p></td>
+				<td><p>1,000 bytes.</p></td>
+				<td />
+				<td><p align="center">KiB</p></td>
+				<td><p>1,024 bytes.</p></td>
+			</tr>
+			<tr>
+				<td><p align="center">MB</p></td>
+				<td><p>1,000 KB.</p></td>
+				<td />
+				<td><p align="center">MiB</p></td>
+				<td><p>1,024 KiB.</p></td>
+			</tr>
+			<tr>
+				<td><p align="center">GB</p></td>
+				<td><p>1,000 MB.</p></td>
+				<td />
+				<td><p align="center">GiB</p></td>
+				<td><p>1,024 MiB.</p></td>
+			</tr>
+			<tr>
+				<td><p align="center">TB</p></td>
+				<td><p>1,000 GB.</p></td>
+				<td />
+				<td><p align="center">TiB</p></td>
+				<td><p>1,024 GiB.</p></td>
+			</tr>
+			<tr>
+				<td><p align="center">PB</p></td>
+				<td><p>1,000 TB.</p></td>
+				<td />
+				<td><p align="center">PiB</p></td>
+				<td><p>1,024 TiB.</p></td>
+			</tr>
+			<tr>
+				<td><p align="center">EB</p></td>
+				<td><p>1,000 PB.</p></td>
+				<td />
+				<td><p align="center">EiB</p></td>
+				<td><p>1,024 PiB.</p></td>
+			</tr>
+			<tr>
+				<td><p align="center">ZB</p></td>
+				<td><p>1,000 EB.</p></td>
+				<td />
+				<td><p align="center">ZiB</p></td>
+				<td><p>1,024 EiB.</p></td>
+			</tr>
+			<tr>
+				<td><p align="center">YB</p></td>
+				<td><p>1,000 ZB.</p></td>
+				<td />
+				<td><p align="center">YiB</p></td>
+				<td><p>1,024 ZiB.</p></td>
+			</tr>
+		</table>
+	</body>
+</html>

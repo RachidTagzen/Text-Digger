@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>347</width>
-    <height>246</height>
+    <height>206</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,6 +32,12 @@
       <string>Loggers</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_2">
+      <property name="topMargin">
+       <number>9</number>
+      </property>
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
       <item row="0" column="0">
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <property name="spacing">
@@ -108,8 +114,14 @@
       <string>Window</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_3">
+      <property name="topMargin">
+       <number>9</number>
+      </property>
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
       <property name="verticalSpacing">
-       <number>15</number>
+       <number>8</number>
       </property>
       <item row="2" column="0">
        <layout class="QHBoxLayout" name="horizontalLayout_4">

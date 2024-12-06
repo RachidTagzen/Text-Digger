@@ -1,0 +1,16 @@
+<html>
+	<head></head>
+	<body>
+		<p>Choose the size system for file size measurements :</p>
+		<p>
+			• <span style="font-weight: 700">SI</span> (International System of
+			Units): Uses decimal-based units (e.g., 1 KB = 1,000 bytes, 1 MB = 1,000
+			KB).
+		</p>
+		<p>
+			• <span style="font-weight: 700">IEC</span> (International
+			Electrotechnical Commission): Uses binary-based units (e.g., 1 KiB = 1,024
+			bytes, 1 MiB = 1,024 KiB).
+		</p>
+	</body>
+</html>

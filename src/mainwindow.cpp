@@ -671,7 +671,6 @@ void MainWindow::setConnections() {
     });
 
     connect(ui->actionImport_Results, &QAction::triggered, this, [this]() {
-        clearViews();
         HandleResults::importResults(*m_resultsModel, *m_appSettings, this);
     });
 
@@ -1820,6 +1819,11 @@ void MainWindow::initialiazeControls() {
                                               ui->checkBox_OccurrencesFoundLimit->isChecked() ? "Enabled" : "Disabled",
                                               QString::number(ui->spinBox_OccurrencesFoundLimit->value()),
                                               m_filterWidget_FindText->dontMatch() ? "Don't Match" : "Match"));
+
+
+    ui->comboBox_SizeSystems->setToolTip(AppStrings::getString(StringType::TOOLTIP_SIZESYSTEM));
+    ui->comboBox_SizeUnits_1->setToolTip(AppStrings::getString(StringType::TOOLTIP_SIZEUNITS));
+    ui->comboBox_SizeUnits_2->setToolTip(AppStrings::getString(StringType::TOOLTIP_SIZEUNITS));
 
 }
 

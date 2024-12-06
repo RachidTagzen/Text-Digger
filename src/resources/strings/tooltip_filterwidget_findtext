@@ -1,5 +1,5 @@
 <html>
-	<head> </head>
+	<head></head>
 	<body>
 		<b>Case Sensitive:</b> 'Example' and 'example' are treated as different
 		strings.<br />
